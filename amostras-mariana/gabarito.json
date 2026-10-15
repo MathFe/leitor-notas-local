@@ -1,0 +1,126 @@
+{
+  "competencia": "2026-10",
+  "cliente": {
+    "nome": "STUDIO BELLA FORMA LTDA (fictício)",
+    "cnpj": "10.433.218/0001-93"
+  },
+  "documentos": [
+    {
+      "arquivo": "01_pix_aluguel.pdf",
+      "tipo": "pix_enviado",
+      "data": "2026-10-05",
+      "valor": 3200.0,
+      "contraparte": "Imobiliária Vale Azul Ltda",
+      "cnpj_contraparte": "19.600.133/0001-27",
+      "categoria": "Aluguel",
+      "caminho_esperado": "pdf_texto",
+      "deve_revisar": false
+    },
+    {
+      "arquivo": "02_pix_recebido_cliente.pdf",
+      "tipo": "pix_recebido",
+      "data": "2026-10-08",
+      "valor": 450.0,
+      "contraparte": "Fernanda R. S.",
+      "cnpj_contraparte": null,
+      "categoria": "Receita (entrada)",
+      "caminho_esperado": "pdf_texto",
+      "deve_revisar": false
+    },
+    {
+      "arquivo": "03_pix_manutencao_ar.pdf",
+      "tipo": "pix_enviado",
+      "data": "2026-10-10",
+      "valor": 680.0,
+      "contraparte": "Frio Total Refrigeração ME",
+      "cnpj_contraparte": "18.495.931/0001-73",
+      "categoria": "Manutenção e reparos",
+      "caminho_esperado": "pdf_texto",
+      "deve_revisar": false
+    },
+    {
+      "arquivo": "04_nfe_insumos.pdf",
+      "tipo": "nfe",
+      "data": "2026-10-02",
+      "valor": 772.4,
+      "contraparte": "Distribuidora Paraíba Cosméticos Ltda",
+      "cnpj_contraparte": "89.083.863/0001-83",
+      "chave_acesso": "35261089083863000183550010000187341051975285",
+      "categoria": "Matéria-prima e insumos",
+      "caminho_esperado": "pdf_texto",
+      "deve_revisar": false
+    },
+    {
+      "arquivo": "05_foto_nfe_equipamento.jpg",
+      "tipo": "nfe",
+      "data": "2026-10-07",
+      "valor": 3180.0,
+      "contraparte": "Rede Ar & Energia Equipamentos Ltda",
+      "cnpj_contraparte": "03.413.164/0001-39",
+      "chave_acesso": "35261003413164000139550010000055211631749450",
+      "categoria": "Equipamentos",
+      "caminho_esperado": "imagem_visao",
+      "deve_revisar": false
+    },
+    {
+      "arquivo": "06_cupom_combustivel.jpg",
+      "tipo": "nfce",
+      "data": "2026-10-09",
+      "valor": 248.37,
+      "contraparte": "AUTO POSTO SERRA DO MAR LTDA",
+      "cnpj_contraparte": "79.402.654/0001-00",
+      "chave_acesso": "35261079402654000100650010004029181298545486",
+      "categoria": "Combustível e transporte",
+      "caminho_esperado": "imagem_visao",
+      "deve_revisar": false
+    },
+    {
+      "arquivo": "07_cupom_restaurante.jpg",
+      "tipo": "nfce",
+      "data": "2026-10-11",
+      "valor": 88.8,
+      "contraparte": "RESTAURANTE SABOR DO VALE",
+      "cnpj_contraparte": "23.511.615/0001-88",
+      "chave_acesso": "35261023511615000188650010000881231267862115",
+      "categoria": "Alimentação",
+      "caminho_esperado": "imagem_visao",
+      "deve_revisar": false
+    },
+    {
+      "arquivo": "08_print_pix_marketing.png",
+      "tipo": "pix_enviado",
+      "data": "2026-10-12",
+      "valor": 1250.0,
+      "contraparte": "Agência Pixel Criativo Ltda (fictícia)",
+      "cnpj_contraparte": "75.433.036/0001-68",
+      "categoria": "Serviços de terceiros",
+      "caminho_esperado": "imagem_visao",
+      "deve_revisar": false
+    },
+    {
+      "arquivo": "09_recibo_pintura.jpg",
+      "tipo": "recibo",
+      "data": "2026-10-03",
+      "valor": 380.0,
+      "contraparte": "Josias P. Lima",
+      "cnpj_contraparte": null,
+      "categoria": "Manutenção e reparos",
+      "caminho_esperado": "imagem_visao",
+      "deve_revisar": true,
+      "observacao": "Recibo sem CNPJ: a validação deve marcar para revisão."
+    },
+    {
+      "arquivo": "10_cupom_borrado_setembro.jpg",
+      "tipo": "nfce",
+      "data": "2026-09-29",
+      "valor": 201.7,
+      "contraparte": "PAPELARIA E LIMPEZA AQUARIUS",
+      "cnpj_contraparte": "59.407.816/0001-87",
+      "chave_acesso": "35260959407816000187650010000155021536439240",
+      "categoria": "Material de escritório e limpeza",
+      "caminho_esperado": "imagem_visao",
+      "deve_revisar": true,
+      "observacao": "Foto ruim e data fora do mês de competência (out/2026): deve cair em revisão."
+    }
+  ]
+}

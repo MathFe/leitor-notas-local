@@ -1,0 +1,6 @@
+# Privacidade: Streamlit não envia estatísticas de uso e só escuta nesta máquina.
+[browser]
+gatherUsageStats = false
+
+[server]
+address = "localhost"

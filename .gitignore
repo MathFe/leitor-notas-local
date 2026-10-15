@@ -1,0 +1,9 @@
+# Ambiente e caches
+.venv/
+__pycache__/
+.pytest_cache/
+.idea/
+
+# Saídas geradas
+*.xlsx
+resultado*.json
