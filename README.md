@@ -8,3 +8,5 @@ de uma contadora autônoma e transformar tudo numa planilha Excel, sem nenhum da
 - [`amostras-mariana/`](amostras-mariana/) — 10 documentos **fictícios** + gabarito para avaliar a acurácia.
 
 Resultado nas amostras: **95% dos campos corretos**, com os 2 documentos problemáticos enviados para revisão.
+
+Licença: [MIT](LICENSE).
